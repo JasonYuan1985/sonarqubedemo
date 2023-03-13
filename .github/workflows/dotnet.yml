@@ -49,6 +49,6 @@ jobs:
           context: .
           file: ./ConsoleApp1/Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/sonarqubedemo:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/sonarqubedemo:latest
             
       
